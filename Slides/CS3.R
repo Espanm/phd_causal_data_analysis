@@ -10,11 +10,9 @@ rm(list=ls())
 library(tidyverse)
 library(fixest)
 
-# Setting default folder
-setwd("C:/Users/tokes/OneDrive - Corvinus University of Budapest/TANITAS/kauzalis_adat/R_anyagok/chapter_22/")
 
 # Loading data
-data_agg <- read_rds('ch22-airline-workfile.rds')
+data_agg <- read_rds('CS3.rds')
 
 # Definition of the market
 # New York JFK, Los Angeles LAX
